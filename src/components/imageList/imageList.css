@@ -1,0 +1,14 @@
+.imageList-container{
+    display :grid;
+    grid-template-columns: repeat(auto-fill , minmax(400px , 1fr));
+    grid-auto-rows: 5px;
+}
+
+.imageList-container img {
+    width:400px;
+}
+
+.imageList-container img:hover{
+opacity: 0.8;
+
+}
